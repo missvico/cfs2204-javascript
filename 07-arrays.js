@@ -20,3 +20,16 @@ for(let i = 0; i<persona.length; i++){
 // Utilizando un for loop, loguear en consola la siguiente frase para cada película:
 // *Nombre de película* está *ranking* en mi lista de películas favoritas.
 // Ej: “El padrino está 1° en mi lista de películas favoritas”
+
+const moviesArray = ["Volver al futuro", "Avatar", "Terminator 2"]
+
+console.log("El arreglo de peliculas tiene un largo de " + moviesArray.length)
+moviesArray.push("Avengers")
+
+console.log("El arreglo de peliculas tiene un largo de " + moviesArray.length)
+
+for(let i=0;i<moviesArray.length; i++){
+    console.log(moviesArray[i] + " está " +(i+1)+ "° en mi lista de películas favoritas.")
+    console.log(`${moviesArray[i]} está ${i+1}° en mi lista de películas favoritas.`)
+}
+
