@@ -1,0 +1,12 @@
+.checked {
+    color: lightblue;
+    text-decoration: line-through;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#main-button:hover {
+    background-color: lightblue;
+}
